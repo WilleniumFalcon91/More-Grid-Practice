@@ -1,0 +1,39 @@
+html { 
+    box-sizing: border-box; 
+} 
+*, *:before, *:after { 
+    box-sizing: inherit; 
+}
+* {
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-area {
+
+}
+
+.columns {
+    margin-bottom: 750px;
+}
+
+.col-1 {
+    width: 25%;
+    height: 750px;
+    float: left;
+}
+
+.col-2 {
+    width: 50%;
+    height: 750px;
+    float: left;
+}
+.col-3 {
+    width: 25%;
+    height: 750px;
+    float: left;
+}
