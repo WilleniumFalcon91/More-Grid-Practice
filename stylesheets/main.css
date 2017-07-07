@@ -8,11 +8,17 @@ html {
     border: 1px solid black;
 }
 
-.row {
+.top-row {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
     background-color: #3B5998;
     color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
 }
 
 .search-area {
