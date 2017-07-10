@@ -8,15 +8,18 @@ html {
     border: 1px solid black;
 }
 
+
+
 .top-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: space-around;*/
     background-color: #3B5998;
     color: white;
+    text-align: center;
 }
 
-.row {
+/*.row {
     display: flex;
     justify-content: space-around;
 }
@@ -49,4 +52,4 @@ html {
     width: 25%;
     height: 750px;
     float: left;
-}
+}*/
